@@ -5,20 +5,39 @@
 
 
 <h2 align="left">Modulos de estudo de Java 🪄</h2>  
+
 <p>
   
  <img src="https://encurtador.com.br/kpzVY" alt="ilustração de um computador" min-width="400px" max-width="400px" width="400px" align="right">
  
-  - Fundamentos
-  - Operadores
-  - EstruturaDeControle
-  - ArreysCollections
-  - Classe
-  - Coleções
-  - Orientação a Objetos(O O)
+  - Algoritmo e Estrutura de Dados
+
+  - Fundamentos da Linguagem Java
+
+  - Estruturas de Controle
+
+  - Classes, Objetos, Métodos
+
+  - Orientação a Objeto
+
+  - Encapsulamento, Herança, Polimorfismo e Abstração
+
+  - Lambdas
+
+  - Stream API
+
+  - Tratamento de Exceções
+
+  - JavaFX
+
+  - Banco de Dados Relacional
+
+  - Bando de Dados NÃO Relacional (NoSQL)
+
+  - JPA (Hibernate)
+
+  - Spring Boot
 
   
-  
- 
 </p>
 
