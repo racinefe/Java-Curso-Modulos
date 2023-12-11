@@ -17,7 +17,6 @@ public class ClienteTeste {
         Cliente cliente = new Cliente("João");
 		cliente.adicionarCompra(compra1);
 		cliente.adicionarCompra(compra2);
-        
 
         double totalCompras = cliente.calcularTotalCompras();
         System.out.println("Total das Compras de " + cliente.getNome() + ": R$" + totalCompras);
