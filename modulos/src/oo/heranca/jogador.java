@@ -5,6 +5,11 @@ package oo.heranca;
 		int x;
 		int y;
 		int vida = 100;
+		
+		jogador(int x,int y){
+			this.x = x;
+			this.y = y;
+		}
 		boolean atacar(jogador oponente) {
 			int deltaX = Math.abs(x - oponente.x);
 			int deltay = Math.abs(y - oponente.y);
