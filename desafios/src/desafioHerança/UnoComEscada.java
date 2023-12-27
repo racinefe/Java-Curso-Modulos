@@ -1,6 +1,6 @@
 package desafioHerança;
 
-public class UnoComEscada extends Carro {
+public class UnoComEscada extends Carro implements Esportivo{
 	
 	
 	UnoComEscada(){
@@ -9,7 +9,17 @@ public class UnoComEscada extends Carro {
 	UnoComEscada(int velocidadeMaxima){
 		
 		super(velocidadeMaxima);
-		delta = 10;
+		setDelta(10);
+		
+	}
+	@Override
+	public void ligarTurbo() {
+		setDelta(20);
+		
+	}
+	@Override
+	public void desligarTurbo() {
+		setDelta(10);
 		
 	}
 		
