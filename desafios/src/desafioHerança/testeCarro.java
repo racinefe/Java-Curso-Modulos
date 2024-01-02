@@ -13,6 +13,8 @@ public class testeCarro {
 		uno.desligarTurbo();
 		uno.acelerar();
 		
+		System.out.println(uno.nivelTurbo());
+		
 		System.out.println("Uno Com Escada - " + uno);
 		
 	
