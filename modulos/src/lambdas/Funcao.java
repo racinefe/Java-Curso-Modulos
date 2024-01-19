@@ -6,11 +6,14 @@ public class Funcao {
 
 	public static void main(String[] args) {
 
-		Function<Integer, String> parOuImpar = numero -> numero % 2 == 0 ? "Par" : "Impar";
+		Function<Integer, String> parOuImpar = 
+				numero -> numero % 2 == 0 ? "Par" : "Impar";
 		
-		Function<String, String> oResultadoE = valor -> "O Resultado e: " + valor;
+		Function<String, String> oResultadoE = 
+				valor -> "O Resultado e: " + valor;
 		
-		Function<String, String> empolgado = valor -> valor + "!!!";
+		Function<String, String> empolgado = 
+				valor -> valor + "!!!";
 		
 		String resultadoFinal = parOuImpar
 				.andThen(oResultadoE)
