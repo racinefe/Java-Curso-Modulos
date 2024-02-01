@@ -10,7 +10,7 @@ public class Desafio {
         Function<Produto, Double> precoFinal =
                 produto -> produto.preco * (1 - produto.desconto);
         UnaryOperator<Double> impostoM =
-                preco -> preco >= 2500 ? preco * 1.085 : preco; // Corrigido o valor do imposto
+                preco -> preco >= 2500 ? preco * 1.085 : preco; 
         UnaryOperator<Double> frete =
                 preco -> preco >= 3000 ? preco + 100 : preco + 50;
         UnaryOperator<Double> arredondar =
@@ -27,7 +27,7 @@ public class Desafio {
                 .andThen(frete)
                 .andThen(arredondar)
                 .andThen(formatar)
-                .apply(p); // Ajustado para aplicar diretamente o preço do produto
+                .apply(p); 
 
         // Imprimindo o resultado
         System.out.println("Preço final: " + preco);
