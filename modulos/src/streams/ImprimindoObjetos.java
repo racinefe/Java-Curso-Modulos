@@ -1,5 +1,6 @@
 package streams;
 
+import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
@@ -29,10 +30,15 @@ public class ImprimindoObjetos {
 			System.out.println(nomes.next());
 		 }
 		  
+			
 		 System.out.println("\n  Usanndo o Stream");
-		 Stream<String> nomesLista = aprovados.stream();
-		 nomesLista.forEach(System.out::println);
-
+		 Stream<String> nomesLista = aprovados.stream(); 
+		 nomesLista.forEach(System.out::println);//Laço interno!!!
+			
+		  
+		  List<Integer> numerosLista = Arrays.asList(1,2,3,4,5,6);
+		  Stream<Integer> numero = numerosLista.stream();
+		  numero.forEach(System.out::println);
 	}
 
 }
