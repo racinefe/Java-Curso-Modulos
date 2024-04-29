@@ -40,6 +40,6 @@
     
   - Projetos
 
-      Link do Curso - https://www.udemy.com/course/fundamentos-de-programacao-com-java/
+    - [Curso na Udemy](https://www.udemy.com/course/fundamentos-de-programacao-com-java/)
 </p>
 
