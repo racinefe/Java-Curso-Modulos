@@ -42,7 +42,7 @@ public class Filter {
 		Predicate<Restaurante> aberto2 = r-> r.aberto;
 		Predicate<Restaurante> avalicao2 = r-> r.nota >=3; 
 		
-		Function<Restaurante, String> filtro2 = r->"Restaurante está Aberto: "+r.aberto+" Valor: " + r.preco + " com nota: " + r.nota;
+		Function<Restaurante, String> filtro2 = r->"Restaurante está com -> "+" Valor médio R$" + r.preco + " e avaliação: " + r.nota;
 		
 		restaurante.stream()
 		.filter(preco2)
