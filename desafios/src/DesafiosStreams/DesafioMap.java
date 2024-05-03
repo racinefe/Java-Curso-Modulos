@@ -1,5 +1,6 @@
 package DesafiosStreams;
 
+import java.nio.file.DirectoryStream.Filter;
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Consumer;
@@ -31,7 +32,6 @@ public class DesafioMap {
         .map(binarioParaInt)
         .forEach( System.out::println);
 		System.out.println();
-		
 		
 		
 		
