@@ -19,6 +19,7 @@ public class Filter {
 		
 		Predicate<Aluno> aprovado = a-> a.nota >= 7;
 		
+		
 		alunos.stream()
 			.filter(aprovado)
 			.map(a-> "Parabens " + a.nome + "!" + "Voce foi aprovado com nota:" + a.nota)
